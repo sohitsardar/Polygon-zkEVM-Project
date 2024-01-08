@@ -1,6 +1,8 @@
-# Poly Proof 3rd Assessment - Circom Circuit
+# Polygon zkEVM
 
 This repository contains a Circom circuit that checks a specific condition regarding input signals `a` and `b` and outputs the result in signal `q`.
+
+Our goal is to prove you know the inputs A (0) & B (1) that yield a 0 output.
 
 
 ## Circuit Description
@@ -30,37 +32,16 @@ To use this circuit, follow these steps:
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/YashUpadhyay0456/poly-proof-3rd-assessment.git
-cd poly-proof-3rd-assessment
-```
-
 2. Make sure you have Circom (2.0.0) installed on your system.
 
 3. Compile the circuit:
 
-```bash
-circom circuit.circom -o circuit.json
-```
-
 4. Optionally, you can generate a constraint system and a witness using snarkjs:
-
-```bash
-snarkjs setup
-snarkjs calculatewitness
-```
 
 5. Execute the circuit and get the output:
 
-```bash
-snarkjs groth16 prove
-```
 
 6. Verify the proof:
-
-```bash
-snarkjs groth16 verify
-```
 
 ## Contributing
 
@@ -70,4 +51,6 @@ We welcome contributions to improve this Circom circuit or add new functionaliti
 
 This Circom circuit is licensed under the [MIT License](LICENSE).
 
---
+## Author
+
+Sohit
